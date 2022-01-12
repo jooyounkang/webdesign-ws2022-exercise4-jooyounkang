@@ -1,0 +1,112 @@
+/* Use this when you are ready to make a media query style
+
+@media screen and (max-width: 768px) {
+  
+
+}  */
+
+.container {
+  height: 50vh;
+  display: flex;
+}
+
+.box {
+  background-color: black;
+  height: 50vh;
+  width: 50%;
+}
+
+.boxinfo {
+  background-color: black;
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.boxarticle{
+  background-color: rgb(255, 255, 255);
+  height: 50vh;
+  width: 50%;
+}
+
+.boxarticle img{
+  background-color: rgb(255, 255, 255);
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+}
+
+.box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.byline{
+ color: white;
+ margin-bottom: 20%;
+}
+
+.sectionhead{
+ color:firebrick;
+  
+}
+
+.category{
+  color: red;
+  font-size: 9pt;
+  text-transform: uppercase;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+  font-size: 14pt;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: black;
+  margin-bottom: px;
+  margin-top: 0px;
+  font-size: 16pt;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 800px;
+  }
+  
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .boxinfo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .boxarticle {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+}
+
